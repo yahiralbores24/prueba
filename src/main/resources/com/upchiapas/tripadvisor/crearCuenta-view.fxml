@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="589.0" prefWidth="952.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.upchiapas.tripadvisor.controllers.LoginController">
+   <children>
+      <ImageView fitHeight="589.0" fitWidth="960.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@assets/img/YAHIR.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="280.0" fitWidth="308.0" layoutX="-58.0" layoutY="-34.0" pickOnBounds="true">
+         <image>
+            <Image url="@assets/img/—Pngtree—elegant%20sprout%20on%20a%20and_3554505.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="449.0" layoutY="60.0" text="Nombre(s)">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUsername" layoutX="242.0" layoutY="106.0" prefHeight="30.0" prefWidth="498.0" style="-fx-background-color: #FFFFFF;" />
+      <Label layoutX="445.0" layoutY="225.0" prefHeight="26.0" prefWidth="90.0" text="Contraseña">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="417.0" layoutY="143.0" text="Correo electronico">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUsername1" layoutX="236.0" layoutY="185.0" prefHeight="30.0" prefWidth="498.0" style="-fx-background-color: #FFFFFF;" />
+      <PasswordField layoutX="358.0" layoutY="259.0" prefHeight="26.0" prefWidth="265.0" style="-fx-background-color: #FFFFFF;" />
+      <Label layoutX="405.0" layoutY="295.0" text="Confirmar contraseña">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="358.0" layoutY="336.0" prefHeight="26.0" prefWidth="265.0" style="-fx-background-color: #FFFFFF;" />
+      <Button layoutX="443.0" layoutY="393.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="95.0" style="-fx-background-color: #008000;" text="Crear cuenta" textFill="WHITE" />
+   </children>
+</AnchorPane>
